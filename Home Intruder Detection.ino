@@ -262,7 +262,7 @@ void onAlarmTriggerChange()  {
   
   if (alarm_trigger == false) {
     isAlarmActive = false;
-    system_mode = false; // Sistemi otomatik olarak MANUAL moda atar
+    system_mode = false;
     system_status = "MANUAL MODE";
   } 
   
