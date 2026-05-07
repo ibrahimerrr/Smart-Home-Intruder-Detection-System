@@ -10,7 +10,7 @@ This project is an IoT-based home security system designed to monitor residentia
 * **Display:** OLED Display
 * **Actuator 1:** Active Buzzer
 * **Actuator 2:** RGB LED
-* **Misc:** Breadboard, External Power Supply Module, Servo Motor
+* **Misc:** Breadboard, External Power Supply Module
 
 * ## 🔌 Wiring Table (GPIO ↔ Pins)
 
@@ -32,7 +32,7 @@ This project is an IoT-based home security system designed to monitor residentia
 **Platform:** Arduino IoT Cloud
 
 **Variables / Feeds:**
-1. `distance` (Integer) - Read Only.
+1. `distance` (float) - Read Only.
 2. `motion_status` (Boolean) - Read Only.
 3. `system_mode` (Boolean) - Read & Write, Update on Change.
 4. `alarm_trigger` (Boolean) - Read & Write, Update on Change.
