@@ -140,7 +140,7 @@ void loop() {
     
     // Güvenli durumlarda RGB kontrolü
     if (system_mode == true) {
-      digitalWrite(ledG, HIGH);   /
+      digitalWrite(ledG, HIGH);   
       digitalWrite(ledR, LOW);
       digitalWrite(ledB, LOW);
 
