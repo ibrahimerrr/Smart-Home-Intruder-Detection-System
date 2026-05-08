@@ -206,11 +206,7 @@ void loop() {
 
     
     display.setCursor(0, 24);
-    if (distanceCm == 0 || distanceCm > 400) {
-      display.print("Distance: Out of range");
-    } else {
-      display.print("Distance: " + String(distanceCm) + " cm");
-    }
+    display.print("Distance: " + String(distanceCm) + " cm");
 
     display.setCursor(0, 36);
     display.print("IP: ");
